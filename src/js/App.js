@@ -1,10 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import Vocabulary from "./Vocabulary";
 
 const App = () => {
-	return (
-		<h1>Hello</h1>
-	)
-}
+  return (
+    <div className="container">
+      <h1>Hello</h1>
+      <Vocabulary />
+    </div>
+  );
+};
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
