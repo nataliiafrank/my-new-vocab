@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import styles from './form.css';
 
 const Form = () => {
   return (
-    <form>
+    <form className={styles.form}>
       <div>
         <label htmlFor="user-input">
           Word or Phrase
