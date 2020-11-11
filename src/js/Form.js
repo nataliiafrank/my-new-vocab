@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from './form.css';
+import styles from './form.scss';
 
 const Form = () => {
   return (
